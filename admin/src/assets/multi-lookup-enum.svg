@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="sc-blHHSb fTSiDe" width="16" height="16" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <rect x=".5" y="4.5" width="31" height="23" rx="2.5" fill="#fbe7e7" stroke="#872525"/>
+ <g transform="translate(.61185 1.4073)" fill="#7a3030">
+  <path d="m9.6797 7.1795a0.75 0.75 0 0 0-1.358 0l-4 8.5a0.75017 0.75017 0 0 0 1.357 0.64l0.974-2.07h4.695l0.974 2.07a0.75063 0.75063 0 1 0 1.358-0.64zm-2.32 5.57 1.64-3.489 1.643 3.489zm9.14-3c-0.865 0-1.547 0.241-2.027 0.717a0.74918 0.74918 0 1 0 1.056 1.063c0.188-0.187 0.516-0.283 0.972-0.283 0.584 0 1.074 0.323 1.21 0.757a3 3 0 0 0-1.21-0.254c-1.516 0-2.75 1.121-2.75 2.5s1.234 2.5 2.75 2.5c0.479 1e-3 0.95-0.114 1.375-0.336a0.75 0.75 0 0 0 1.375-0.414v-3.75c0-1.379-1.234-2.5-2.75-2.5m0 5.5c-0.687 0-1.25-0.449-1.25-1s0.563-1 1.25-1 1.25 0.449 1.25 1-0.562 1-1.25 1"/>
+  <path transform="scale(1.0784 .92727)" d="m1.8961 19.763h3.1156v-0.99403h-2.0029v-11.646h2.0029v-0.99403h-3.1156z" stroke-linecap="round" stroke-width="1.1535"/>
+  <path transform="scale(-1.0784 .92727)" d="m-25.635 19.763h3.1156v-0.99403h-2.0029v-11.646h2.0029v-0.99403h-3.1156z" stroke-linecap="round" stroke-width="1.154"/>
+  <circle cx="20.807" cy="15.922" r=".81723"/>
+  <circle cx="23.01" cy="15.922" r=".81723"/>
+  <circle cx="25.09" cy="15.922" r=".81723"/>
+ </g>
+ <g transform="translate(1.2859 -1.8964)" stroke="#020101">
+  <circle cx="15.212" cy="16.58" r="5.4315" fill="#efe7fb" fill-opacity=".55928" stroke-width=".6"/>
+  <path d="m19.427 20.761 4.9392 4.9392" fill="none" stroke-linecap="round" stroke-width="1.6225"/>
+  <path d="m21.133 22.443 3.1725 3.1725" fill="none" stroke-linecap="round" stroke-width="2.8402"/>
+ </g>
+</svg>

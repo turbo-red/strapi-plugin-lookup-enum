@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "keywords": [],
+  "type": "commonjs",
+  "exports": {
+    "./package.json": "./package.json",
+    "./strapi-admin": {
+      "types": "./dist/admin/src/index.d.ts",
+      "source": "./admin/src/index.ts",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
+    },
+    "./strapi-server": {
+      "types": "./dist/server/src/index.d.ts",
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify",
+    "test:ts:front": "run -T tsc -p admin/tsconfig.json",
+    "test:ts:back": "run -T tsc -p server/tsconfig.json"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^2.0.0-rc.11",
+    "@strapi/icons": "^2.0.0-rc.11",
+    "react-intl": "^6.8.1"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "^5.2.7",
+    "@strapi/strapi": "^5.1.0",
+    "@strapi/typescript-utils": "^5.1.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "styled-components": "^6.1.13",
+    "typescript": "^5.6.3",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "5.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "react-router-dom": "6.x",
+    "styled-components": "6.x"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "lookup-enum",
+    "displayName": "TurboRED Lookup Enum",
+    "description": "Like enum field, but options are extracted from a field provided by a single-type content."
+  },
+  "name": "@turbo-red/strapi-plugin-lookup-enum",
+  "description": "Like enum field, but options are extracted from a field provided by a single-type content.",
+  "license": "MIT",
+  "author": "Andrea Chiumenti <achiumenti@red.software.systems>",
+  "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
+}
